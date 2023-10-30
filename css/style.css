@@ -1,0 +1,259 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+.modo-oscuro {
+    background-color: #0D0D0D;
+}
+
+.navbar {
+    background-color: #292929;
+}
+
+.navbar-brand {
+    color: #53D769;
+}
+
+.nav-link {
+    color: #1D9FAC;
+}
+
+#hamburguesa {
+    color: #1D9FAC;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #292929;
+    padding: 25px;
+    margin-top: 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+    width: 50%;
+}
+
+h1 {
+    color: #53D769;
+    text-shadow: 1px 1px rgba(62, 39, 211, 0.282);
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    width: 100%;
+}
+
+.ingresoMonto {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+
+.ok {
+    width: 25%;
+}
+
+label {
+    color: #1D9FAC;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    margin-block: 5px;
+}
+
+select {
+    width: 95%;
+    font-size: 1em;
+    background-color: rgba(81, 131, 166, 0.496);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #000;
+    padding: 0.1em;
+}
+
+input {
+    width: 95%;
+    font-size: 1em;
+    padding: 0.1em;
+    border-radius: 5px;
+    border: none;
+    margin-block: 5px;
+    background-color: #292929;
+    color: #53D769;
+}
+
+input::placeholder {
+    color: #1D9FAC;
+    font-size: small;
+}
+
+#recibe {
+    background-color: #292929;
+    border-radius: 5px;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-size: small;
+    padding: 3px;
+    color: #53D769;
+    width: 95%;
+}
+
+.botonComprar {
+    background-color: #1D9FAC;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #1C1C1C;
+    font-size: 1em;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+
+.botonComprar:hover {
+    background-color: #53D769;
+}
+
+.cero {
+    background-color: #1D9FAC;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #1C1C1C;
+    font-size: 1em;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+
+.cero:hover {
+    background-color: #53D769;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.containerLista {
+    background-color: #292929;
+    padding: 25px;
+    margin-top: 80px;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 0.5em;
+}
+
+.botonesRanking{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 0.1em;
+}
+
+.botonRanking {
+    margin-bottom: 10px;
+    background-color: #1D9FAC;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: #1C1C1C;
+    font-size: 0.8em;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    box-shadow: 1px 2px 10px rgba(0, 0, 255, 0.379);
+}
+
+.botonRanking:hover {
+    transform: scale(1.1);
+    background-color: #53D769;
+}
+
+.active1 {
+    box-shadow: 1px 2px 10px rgba(143, 166, 13, 0.379);
+    background-color: #822D9E;
+    font-weight: bold;
+}
+
+caption {
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    color: #53D769;
+}
+
+th {
+    text-align: left;
+    border-radius: 5px;
+    color: #DFB47C;
+    background-color: #292929;
+}
+
+td {
+    background-color: #2929297F;
+    color: #DFB47C;
+    font-size: small;
+}
+
+footer {
+    width: 95%;
+    margin-block: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firma {
+    color: #1D9FAC;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+}
+
+.cambioModo {
+    margin-bottom: 10px;
+    background-color: #1D9FAC;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: #1C1C1C;
+    font-size: 0.8em;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+
+.cambioModo:hover {
+    background-color: #53D769;
+}
+
+.modo-oscuro {
+    background-color: #1D092E;
+    background-image: linear-gradient(43deg, rgba(56, 14, 82, 1) 38%, rgba(85, 71, 30, 1) 87%, rgba(33, 37, 41, 1) 98%);
+}
+
+.info {
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 1080px) {
+    .container {
+        width: 80%;
+    }
+}

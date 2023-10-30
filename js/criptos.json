@@ -1,0 +1,78 @@
+
+[
+    {
+        "rank": "1",
+        "nombre": "Bitcoin",
+        "ticker": "BTC",
+        "chain": "bitcoin",
+        "precio": "28000"
+    },
+    {
+        "rank": "2",
+        "nombre": "Ether",
+        "ticker": "ETH",
+        "chain": "ethereum",
+        "precio": "1800",
+        "utilidad": "defi"
+    },
+    {
+        "rank": "3",
+        "nombre": "Tether",
+        "ticker": "USDT",
+        "chain": "ethereum",
+        "precio": "1"
+    },
+    {
+        "rank": "4",
+        "nombre": "BNB",
+        "ticker": "BNB",
+        "chain": "bsc",
+        "precio": "330",
+        "utilidad": "defi"
+    },
+    {
+        "rank": "5",
+        "nombre": "Ripple",
+        "ticker": "XRP",
+        "chain": "bsc",
+        "precio": "0.44"
+    },
+    {
+        "rank": "6",
+        "nombre": "Uniswap",
+        "ticker": "UNI",
+        "chain": "ethereum",
+        "precio": "6.3",
+        "utilidad": "defi"
+    },
+    {
+        "rank": "7",
+        "nombre": "PancakeSwap",
+        "ticker": "CAKE",
+        "chain": "bsc",
+        "precio": "3.6",
+        "utilidad": "defi"
+    },
+    {
+        "rank": "8",
+        "nombre": "Aave",
+        "ticker": "AAVE",
+        "chain": "ethereum",
+        "precio": "77",
+        "utilidad": "defi"
+    },
+    {
+        "rank": "9",
+        "nombre": "Dogecoin",
+        "ticker": "DOGE",
+        "chain": "bsc",
+        "precio": "0.07"
+    },
+    {
+        "rank": "10",
+        "nombre": "Polkadot",
+        "ticker": "DOT",
+        "chain": "bsc",
+        "precio": "6.2"
+    }
+]
